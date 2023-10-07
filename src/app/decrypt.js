@@ -29,6 +29,9 @@ export default function Decrypt() {
     } catch {
       alert("Password or encrypted mnemonic error");
     }
+
+    setPassword("");
+    setEncryptedMnemonic("");
   }
 
   function destroyWallet() {
